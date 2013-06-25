@@ -2,7 +2,7 @@
 <?php echo $this->Session->flash('auth'); ?>
 <?php echo $this->Form->create('User'); ?>
     <fieldset>
-        <legend><?php echo __('PORTAL PRINCIPAL'); ?></legend>
+        <legend><?php echo __('PORTAL PRINCIPAL INGRESA TUS DATOS'); ?></legend>
     <?php
         echo $this->Form->input('username');
         echo $this->Form->input('password');
